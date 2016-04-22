@@ -35,7 +35,7 @@ line = 'aaa,bbb,ccc\n'
 rstripLine = line.rstrip().split(',')
 rstripResult = ['aaa', 'bbb', 'ccc']
 
-# Formatting expressions
+# Format expressions
 formatStrings = '{}, eggs and {}'.format('spam', 'SPAM!')
 formatResult = 'spam, eggs and SPAM!'
 

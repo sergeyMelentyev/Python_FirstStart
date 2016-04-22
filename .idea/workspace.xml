@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc957d52-ec0c-461e-b767-d3dd04347109" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/listType.py" afterPath="$PROJECT_DIR$/listType.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extModule.py" afterPath="$PROJECT_DIR$/extModule.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/first_start.py" afterPath="$PROJECT_DIR$/first_start.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stringType.py" afterPath="$PROJECT_DIR$/stringType.py" />
     </list>
     <ignored path="Python_FirstStart.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -23,11 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="listType.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/listType.py">
+      <file leaf-file-name="tupleType.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tupleType.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+            <state relative-caret-position="95">
+              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -41,11 +43,13 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/extModule.py" />
         <option value="$PROJECT_DIR$/simpleDataTypes.py" />
-        <option value="$PROJECT_DIR$/stringType.py" />
-        <option value="$PROJECT_DIR$/first_start.py" />
         <option value="$PROJECT_DIR$/listType.py" />
+        <option value="$PROJECT_DIR$/first_start.py" />
+        <option value="$PROJECT_DIR$/extModule.py" />
+        <option value="$PROJECT_DIR$/stringType.py" />
+        <option value="$PROJECT_DIR$/dictType.py" />
+        <option value="$PROJECT_DIR$/tupleType.py" />
       </list>
     </option>
   </component>
@@ -107,7 +111,7 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Font" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Python.listType">
+  <component name="RunManager" selected="Python.progRun">
     <configuration default="false" name="first_start" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -259,7 +263,7 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="listType" type="PythonConfigurationType" factoryName="Python">
+    <configuration default="false" name="progRun" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -271,13 +275,13 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Python_FirstStart" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/listType.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tupleType.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
     <list size="2">
-      <item index="0" class="java.lang.String" itemvalue="Python.listType" />
+      <item index="0" class="java.lang.String" itemvalue="Python.progRun" />
       <item index="1" class="java.lang.String" itemvalue="Python.first_start" />
     </list>
     <recent_temporary>
@@ -397,26 +401,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stringType.py">
+    <entry file="file://$PROJECT_DIR$/first_start.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="817">
-          <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+        <state relative-caret-position="209">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/extModule.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        <state relative-caret-position="38">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/first_start.py">
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharm2016.1/python_stubs/776880377/builtins.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        <state relative-caret-position="55">
+          <caret line="3702" column="8" selection-start-line="3702" selection-start-column="8" selection-end-line="3702" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stringType.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="451">
+          <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -425,6 +437,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="456">
           <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dictType.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tupleType.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding />
         </state>
       </provider>

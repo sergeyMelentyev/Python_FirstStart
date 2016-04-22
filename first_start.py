@@ -9,4 +9,3 @@ print(anotherExternalVar)
 
 # Use dir() function in order to import all variable from module namespace
 dirFromModule = dir(extModule)
-print(dirFromModule)
