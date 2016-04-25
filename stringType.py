@@ -35,9 +35,6 @@ line = 'aaa,bbb,ccc\n'
 rstripLine = line.rstrip().split(',')
 rstripResult = ['aaa', 'bbb', 'ccc']
 
-# Format expressions
+# String formatting expression
 formatStrings = '{}, eggs and {}'.format('spam', 'SPAM!')
 formatResult = 'spam, eggs and SPAM!'
-
-# Call dir() method on a string obj in order to get all available function attributes
-print(dir(name))

@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc957d52-ec0c-461e-b767-d3dd04347109" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classSimple.py" afterPath="$PROJECT_DIR$/classSimple.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/setType.py" afterPath="$PROJECT_DIR$/setType.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stringType.py" afterPath="$PROJECT_DIR$/stringType.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tupleType.py" afterPath="$PROJECT_DIR$/tupleType.py" />
     </list>
     <ignored path="Python_FirstStart.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,11 +23,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="setType.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/setType.py">
+      <file leaf-file-name="stringType.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/stringType.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="413">
-              <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+            <state relative-caret-position="451">
+              <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -51,10 +47,11 @@
         <option value="$PROJECT_DIR$/extModule.py" />
         <option value="$PROJECT_DIR$/dictType.py" />
         <option value="$PROJECT_DIR$/fileSystem.py" />
-        <option value="$PROJECT_DIR$/stringType.py" />
         <option value="$PROJECT_DIR$/tupleType.py" />
         <option value="$PROJECT_DIR$/classSimple.py" />
         <option value="$PROJECT_DIR$/setType.py" />
+        <option value="$PROJECT_DIR$/refCount.py" />
+        <option value="$PROJECT_DIR$/stringType.py" />
       </list>
     </option>
   </component>
@@ -280,7 +277,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Python_FirstStart" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/setType.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/refCount.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -455,22 +452,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/listType.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stringType.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="688">
-          <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tupleType.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
@@ -489,8 +470,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/setType.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
+        <state relative-caret-position="375">
           <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/listType.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/refCount.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stringType.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="451">
+          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
           <folding />
         </state>
       </provider>
