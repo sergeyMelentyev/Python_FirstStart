@@ -9,5 +9,6 @@ class Worker:
     def giveRise(self, percent):
         self.pay *= (1.0 + percent)
 
+
 sergey = Worker('Sergey Melentyev', 100000)
 sergey.giveRise(.10)

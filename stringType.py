@@ -15,15 +15,15 @@ lastLetter = name[-1]
 
 # Slice a range of chars from string object (last char not included)
 sliceChars = name[0:3]
-sliceResult = 'nam'
+sliceResult = 'any'
 
-# Call a find() method on an obj in order to find char position
+# Call find() method on an obj in order to find char position
 name.find('m')
 findResult = 2
 
 # Call a replace() method on an obj in order to find and replace chars
-replaceChar = name.replace('n', 'N')
-replaceResult = 'Name'
+replaceChar = name.replace('a', 'A')
+replaceResult = 'AnyText'
 
 # Call a split() method on an obj in order to split text into a list of substring
 line = 'aaa,bbb,ccc'
