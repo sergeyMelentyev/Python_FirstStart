@@ -21,4 +21,12 @@ rangeList2 = [[x ** 2, x ** 3] for x in range(3)]                   # [[0, 0], [
 sumRow0 = list(map(sum, listArray))                                 # [6, 15, 24]
 
 # Create a key/value table of row sums
-sumRow1 = {i: sum(listArray[i]) for i in range(3)}                  # {0: 6, 1: 15, 2:24}
+
+# Add/remove, reverse
+listSampleOne = [1, 2]
+listSampleOne.extend([3, 4, 5])                                     # [1, 2, 3, 4, 5]
+listSampleOne.append(6)                                             # [1, 2, 3, 4, 5, 6]
+listSampleOne.pop()                                                 # [1, 2, 3, 4, 5]
+listSampleOne.reverse()                                             # [5, 4, 3, 2, 1]
+listSampleOne.insert(0, 6)                                          # [6, 5, 4, 3, 2, 1]
+listSampleOne.count(6)                                              # Number of occurrences
