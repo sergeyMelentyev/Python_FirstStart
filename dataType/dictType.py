@@ -10,6 +10,14 @@ zipped = dict(zip(['name', 'job'], ['Sergey', 'IT']))           # zipped key/val
 dict6 = {key: value for (key, value) in zip(['a', 'b'], [1, 2])}
 dict7 = {x: y ** 2 for (x, y) in [['a', 2], ['b', 4]]}          # {'a': 4, 'b': 16}
 
+key = ['spam', 'eggs', 'toast']                                # dict constraction with zipping two lists
+vals = [1, 3, 5]
+dict8 = dict(zip(key, vals))
+dict9 = {}
+for (key, vals) in zip(key, vals):
+  dict8[key] = vals
+
+
 # Operations
 zipped.keys()                                                   # all keys
 zipped.values()                                                 # all values
