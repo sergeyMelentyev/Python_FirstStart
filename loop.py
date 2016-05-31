@@ -9,3 +9,12 @@ for (a, b) in A:
 for (a, b, c) in [(1, 2, 3), (4, 5, 6)]:      # tuple in the loop
   print(a, b, c)
 
+L = [1, 2, 3, 4, 5]                           # add one to each item in list via for loop
+for i in range(len(L)):
+  L[i] += 1
+
+i = 0                                         # add one to each item in a list via while loop
+while i < len(L):
+  L[i] += 1
+  i += 1
+
