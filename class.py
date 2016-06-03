@@ -1,5 +1,5 @@
 class Worker:
-    def __init__(self, name, pay):
+    def __init__(self, name, pay):                                      # object constructor
         self.name = name
         self.pay = pay
 
