@@ -3,12 +3,10 @@ def makerNested(N):
     return X ** N
   return action
 
-f = makerNested(2)
-f(3)                                              # 9
-
 def makerLambda(N):
   return lambda X : X ** N
 
+f = makerNested(2)
 h = makerLambda(2)
+f(3)                                              # 9
 h(3)                                              # 9
-
