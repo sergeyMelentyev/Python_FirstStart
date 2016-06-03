@@ -1,3 +1,19 @@
+# Basic function call
+def echo(message):
+  print(message)
+echo('Direct function call')
+x = echo
+x('Indirect function call')
+
+def indirect(func, arg):
+  func(arg)
+indirect(echo, 'Argument Call')
+
+schedule = [(echo, 'Embedded call'), (echo, 'Embedded call')]
+for (func, arg) in schedule:
+  func(arg)
+
+# Nested function call
 def makerNested(n):
   def action(x):
     return x ** n
