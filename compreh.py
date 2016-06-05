@@ -31,3 +31,51 @@ print(res)
 
 res = [x_arg for x_arg in range(5) if x_arg % 2 == 0]           # List comprehensions
 print(res)
+
+
+# Nested clauses
+res = []
+for x in [0, 1, 2]:                                             # For loop
+    for y in [10, 20, 30]:
+        res.append(x + y)
+print(res)
+
+res = [x + y for x in [0, 1, 2] for y in [10, 20, 30]]          # List comprehensions
+print(res)
+
+res = []
+for x in range(5):                                              # For loop
+    if x % 2 == 0:
+        for y in range(5):
+            if y % 2 == 1:
+                res.append((x, y))
+print(res)
+
+res = [(x, y) for x in range(5) if x % 2 == 0                   # List comprehensions
+       for y in range(5) if y % 2 == 1]
+print(res)
+
+
+# Multidimensional array
+M = [[1, 2, 3],
+     [4, 5, 6],
+     [7, 8, 9]]
+N = [[2, 2, 2],
+     [3, 3, 3],
+     [4, 4, 4]]
+
+res = [M[i][i] for i in range(len(M))]                          # Diagonals
+print(res)
+
+
+# Changing matrix
+res = []
+for row in M:                                                   # For loop
+    tmp = []
+    for col in row:
+        tmp.append(col + 10)
+    res.append(tmp)
+print(res)
+
+res = [[col + 10 for col in row] for row in M]                  # List comprehensions
+print(res)
