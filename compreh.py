@@ -67,6 +67,9 @@ N = [[2, 2, 2],
 res = [M[i][i] for i in range(len(M))]                          # Diagonals
 print(res)
 
+res = [[M[row][col] * N[row][col] for col in range(3)] for row in range(3)]
+print(res)
+
 
 # Changing matrix
 res = []
